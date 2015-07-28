@@ -11,5 +11,5 @@ For more informations on collecting WebSphere PMI metrics with Jython scripts, s
 For graphing, this tool uses [MorrisJS](http://morrisjs.github.io/morris.js/).
 
 # License
-This tool is licensed under the [MIT](LICENSE).
+This tool is licensed under the [MIT License](LICENSE).
 
