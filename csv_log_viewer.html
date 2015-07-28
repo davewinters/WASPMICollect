@@ -1,0 +1,64 @@
+
+
+    <html>
+      <header> 
+        <title>CSV Log Viewer</title> 
+
+        <link rel="stylesheet" href="css/morris.css" />
+        <link rel="stylesheet" href="css/csv_log_viewer.css" />
+    
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/raphael-min.js"></script>
+        <script type="text/javascript" src="js/morris.min.js"></script>
+        <script type="text/javascript" src="js/csv_log_viewer.js"></script>
+
+      </header>
+
+      <body>
+        <div class="title">
+            <h1 class="center"> CSV Log Viewer </h1>
+
+            <div id="filename" class="files_selection_selectedfile">
+            </div>
+
+            <div id="localfiles" class="files_selection_localfiles">
+              <input type="file" id="files" name="file" multiple/>
+            </div>
+
+            <div id="logfiles" class="files_selection_remotefiles">
+              <select id="logfile" name="lofgile" size="1">
+             </select>
+            </div>
+
+        </div>
+
+        <div class="files_selection">
+          <div class="files_selection_date_picker">
+                <!-- <p class="button">Select date to show</p> -->
+                <button id="prev" class="button" type="button"> &lt&lt </button>
+                <!-- <select id="date_picker" onChange="updateGraph();"> -->
+                <select id="date_picker">
+                </select>
+                <button id="next" class="button" type="button"> &gt&gt </button>
+          </div>
+
+        </div>
+
+        <div id="graph" class="graph"></div>
+
+        <div id="msg" class="msg"></div>
+
+        <div id="log" class="log">
+                <div class="center"> <p class="button">Log content (click to view)</p> </div>
+                <code id="log_content"> </code>
+        </div>
+
+
+        <!-- Retrieve and Display log content -->
+        <script type="text/javascript">
+          documentReady( '');
+        </script>
+
+      </body>
+    </html>
+    

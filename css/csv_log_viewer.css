@@ -1,0 +1,106 @@
+
+.title, .files_selection, .files_selection_remotefiles, .files_selection_localfiles, .files_selection_selectedfile, .files_selection_date_picker,
+.graph, .msg, .log {
+  position: absolute;
+}
+
+body, table {
+    font : 10px Verdana, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    color            : #222;
+    background-color : #fff;
+}
+
+.title {
+  top: 0px;
+  height: 30px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.title h1 {
+  margin-top: 0px;
+}
+
+.files_selection {
+  top: 30px;
+  width: 100%;
+  height: 30px;
+  background-color: #4BB5C1;
+}
+
+.files_selection_remotefiles, .files_selection_localfiles, .files_selection_selectedfile, .files_selection_date_picker {
+  top:    0px;
+  height: 20px;
+}
+.files_selection_remotefiles {
+  right: 10px;
+}
+.files_selection_localfiles {
+  left: 10px;
+}
+.files_selection_selectedfile {
+  right: 30%;
+}
+.files_selection_date_picker {
+  right:   30%;
+}
+
+.graph {
+  top:  70px;
+  bottom: 20%;
+  width: 100%;
+  background-color: #EDF7F2;
+}
+
+.msg, table {
+  background-color: #FAEC7F;
+}
+
+.msg {
+  bottom: 0px;
+  height: 20%;
+  width:  100%;
+}
+
+.right {
+  float: right;
+}
+
+.center1 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.clr1 {
+  clear: both;
+}
+
+.button {
+  font: bold 10px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+.val {
+  text-align: right;
+}
+
+.log {
+  display: none;
+}
+
