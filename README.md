@@ -1,4 +1,4 @@
-# pmi.collect
+# PMI Collect
 Quick and easy way to collect Performance Monitoring Infrastructure (PMI) metrics from WebSphere Application Server (6.x, 7.x, 8.x)
 
 # Documentation
